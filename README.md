@@ -9,5 +9,5 @@
     c-то, во что мы хотим конвертировать ;
 
 пример: 
-std::cout<<Converter("DOLLAR",1,"RUB"); // Вывод->92.29 (Рублей)
-std::cout << Converter("RUB", 1, "YEN"); //Вывод->1.6861 (日国的元)
+    std::cout<<Converter("DOLLAR",1,"RUB"); // Вывод->92.29 (Рублей)
+    std::cout << Converter("RUB", 1, "YEN"); //Вывод->1.6861 (日国的元)
