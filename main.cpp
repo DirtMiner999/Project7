@@ -2,13 +2,16 @@
 
 
 int main() {
-	std::cout<<"Hello World\n";
+	std::cout << "Hello User\n";
 	std::cout << Converter("RUB", 1, "YEN") << "\n";
 
-   
+
 	std::cout << Converter("RUB", 92.29, "DOLLAR") << "\n";
 
 	std::cout << Converter("DOLLAR", 1, "YEN") << "\n";
 
-   std::cout << Converter("GMB", 12, "RUB");
+	std::cout << Converter("GMB", 12, "RUB") << "\n";
+
+	std::cout << Converter("RUB", 1, "YEN");
 }
+
