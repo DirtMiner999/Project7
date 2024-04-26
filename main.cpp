@@ -2,6 +2,7 @@
 
 
 int main() {
+	std::cout<<"Hello World\n";
 	std::cout << Converter("RUB", 1, "YEN") << "\n";
 
    
