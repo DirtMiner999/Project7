@@ -9,4 +9,5 @@ b-численное количество a
 c-во что мы хотим конвертировать 
 
 пример: 
-Converter("DOLLAR",1,"RUB"); //->
+Converter("DOLLAR",1,"RUB"); //->92.29 (Рублей)
+	std::cout << Converter("RUB", 1, "YEN"); //->1.6861 (日国的元)
